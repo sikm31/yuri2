@@ -1,0 +1,479 @@
+* {
+	margin:0;padding:0;
+}
+
+body {
+	max-width: 1400px;
+	min-width: 1400px;
+	margin:0 auto;
+	padding:0;
+	/*border:1px solid #9F3;*/
+	
+}
+
+#Header {
+	height:120px;
+	border-top:1px solid #e8ebf1;
+	background:#e8ebf1;
+	
+}
+
+.tophead {
+	margin-top:30px;
+	margin-left:200px;
+	width:1000px;
+	/*border:1px solid #F06;*/
+	
+}
+
+.logoimg {
+	float:left;
+	/*border:1px solid #000;*/
+	
+}
+
+.menuhead {
+	padding-top:15px;
+	margin-left:270px;
+	/*border:1px solid #000;*/
+		
+	
+}
+
+.menuhead ul {
+	padding-left:30px;	
+	
+}
+
+
+.menuhead ul ul {
+	display:none;
+	padding:0;
+	position:absolute;
+	top:70px;
+	width:230px;
+	line-height:30px;
+		
+	
+}
+
+.menuhead ul li {
+	padding:0 10px; 
+	display:inline-block;
+	vertical-align:top;
+	
+	
+}
+
+.menuhead ul li a {
+	padding:10px 10px 10px 10px;
+	text-decoration:none; 
+	font:13px Arial;
+	color:#000;
+	text-align:center;
+	border:none;
+	
+		
+}
+
+.menuhead ul li:hover > ul {
+	display:block;
+	/*display:table-row;*/
+	background:#FFFFFF;
+	
+	border-bottom:4px solid #2aacc8;	
+	
+}
+
+.menuhead ul li:hover > ul li {
+	display:block;
+	/*display:table-row;*/
+	background:#FFFFFF;
+	
+	border-top:1px solid #CCC;	
+	
+}
+
+.menuhead ul li:hover > ul li a {
+	display:block;
+	border-top:1px solid #FFF;	
+	text-align:left;
+}
+
+a img {
+    border: none; /* Убираем рамку */
+	
+}
+
+.menuhead ul li a:hover {
+	background:#fff;
+	color:#2aacc8;
+	border-top:4px solid #2aacc8;
+	
+
+}
+
+.downarrow {
+	vertical-align:top;
+	padding-left:10px;
+		
+	
+}
+
+.contbody {
+	margin-left:200px;	
+	width:1000px;
+	height:760px;
+	/*border:1px solid #000;*/
+}
+
+.conthead {
+	width:1000px;
+	height:80px;
+	border-bottom:1px solid #CCC;	
+	
+}
+
+.e-mailimg {
+	margin-top:45px;
+	padding-right:15px;
+	float:left;	
+	
+	
+}
+
+.conthead h1 {
+	padding-top:45px;
+	font:15px Arial;	
+	font-weight:bold;
+}
+
+.contmain ul { 
+	display: block;
+	
+
+}
+
+.contmain ul li { 
+	display:inline-block; 
+	vertical-align:top;
+	
+	
+}
+
+.contform {
+	padding-top:20px;
+	width:600px;
+	/*border:1px solid #F00;*/	
+	
+}
+
+.contform p {
+	padding-top:20px;
+	font:14px Arial;	
+	font-weight:normal;
+	
+}
+
+.textemail {
+	color:#2aacc8;	
+	
+}
+
+.contact .form-name:focus {
+	background: #ffe; /* Цвет фона */
+    border: 4px solid #2aacc8; /* Параметры рамки */
+	
+	
+}
+
+.contact .form-email:focus {
+	background: #ffe; /* Цвет фона */
+    border: 4px solid #2aacc8; /* Параметры рамки */
+	
+	
+}
+
+.contact .form-subject:focus {
+	background: #ffe; /* Цвет фона */
+    border: 4px solid #2aacc8; /* Параметры рамки */
+	
+	
+}
+
+.contact .form-description:focus {
+	background: #ffe; /* Цвет фона */
+    border: 4px solid #2aacc8; /* Параметры рамки */
+	
+	
+}
+
+.form-name {
+	margin:15px;
+	margin-left:0;		
+	padding:10px;
+	font:14px Arial;	
+	font-weight:normal;
+}
+
+.form-email {
+	margin:15px;
+	margin-left:0;		
+	padding:10px;
+	font:14px Arial;	
+	font-weight:normal;
+}
+
+.form-subject {
+	margin:15px;
+	margin-left:0;		
+	padding:10px;
+	font:14px Arial;	
+	font-weight:normal;
+}
+
+.form-description {
+	margin:15px;
+	margin-left:0;	
+	padding:10px;
+	font:14px Arial;	
+	font-weight:normal;
+}
+
+.submit {
+	margin-top:35px;
+		
+}
+
+.contmap {
+	padding-top:40px;
+	padding-left:50px;
+	/*border:1px solid #FC3;*/
+		
+	
+}
+
+.mainmap {
+	width:340px;
+	height:280px;
+	background:#e8fcfe;
+	border:1px solid #2aacc8;
+		
+	
+}
+
+.mainmap h1 {
+	padding-top:20px;
+	padding-left:15px;
+	
+	font:14px Arial;	
+	font-weight:bold;
+		
+}
+
+.map {
+	padding-top:25px;
+	padding-left:20px;
+	
+		
+	
+}
+
+.textmap h1 {
+	padding-top:40px;
+	padding-bottom:10px;
+	font:15px Arial;	
+	font-weight:bold;	
+	
+}
+
+.cotactus {
+	width:150px;	
+	
+}
+
+.cotactus p {
+	padding-top:15px;
+	font:14px Arial;	
+	font-weight:normal;	
+	
+}
+
+#Footer {
+	background:#e8ebf1;
+	height:320px;	
+	
+}
+
+.footertop ul {
+	display:block;	
+	
+}
+
+.footertop ul li {
+	display:inline-block;
+	vertical-align:top;
+	
+}
+
+.footertop {
+	margin-left:200px;	
+	
+}
+
+.footerdown {
+	margin-left:200px;	
+	
+}
+
+.about {
+	width:215px;
+		
+	
+}
+
+.about h1 {
+	padding-top:35px;
+	padding-bottom:25px;
+	font:15px Arial;	
+	font-weight:bold;	
+	
+}
+
+.about p {
+	font:14px Arial;	
+	font-weight:normal;	
+	
+}
+
+.explore h1 {
+	padding-top:35px;
+	padding-bottom:5px;
+	font:15px Arial;	
+	font-weight:bold;	
+	
+}
+
+.explore {
+	margin-left:70px;
+	width:85px;
+	
+}
+
+.explore ul {
+	font:14px Arial;	
+	font-weight:normal;
+		
+	
+}
+
+.explore ul li a {
+	text-decoration:none;
+	color:#000;
+	line-height:30px;	
+	
+}
+
+.browse {
+	margin-left:70px;	
+	
+}
+
+.browse h1 {
+	padding-top:35px;
+	padding-bottom:5px;
+	font:15px Arial;	
+	font-weight:bold;	
+	
+}
+
+.browse ul li {
+	display:table-row;	
+	
+}
+
+.browse ul li a {
+	text-decoration:none;
+	color:#000;
+	line-height:30px;	
+	
+}
+
+.contactusfooter {
+	margin-left:70px;
+	
+}
+
+.contactusfooter ul li {
+	display:table-row;
+	font:14px Arial;	
+	font-weight:normal;
+	line-height:20px;	
+	
+}
+
+.contactusfooter h1 {
+	padding-top:35px;
+	padding-bottom:20px;
+	font:15px Arial;	
+	font-weight:bold;	
+	
+}
+
+.connectwithus {
+	margin-left:60px;
+	width:200px;	
+	
+}
+
+.connectwithus h1 {
+	padding-top:35px;
+	padding-bottom:15px;
+	font:15px Arial;	
+	font-weight:bold;	
+	
+}
+
+.likedin {
+	margin-top:10px;	
+	
+}
+
+.skype {
+	margin-top:10px;	
+	
+}
+
+.share {
+	margin-top:10px;	
+	
+}
+
+.footerdown ul {
+	display:block;	
+	
+}
+
+.footerdown ul li {
+	display:inline-block;
+	vertical-align:bottom;
+	
+}
+
+.footerdowntext {
+	width:730px;
+	
+}
+
+.footerdowntext p {
+	padding-top:45px;
+	font:13px Arial;	
+	font-weight:normal;
+	
+}
+
+.footerdownlogo {
+	margin-left:110px;
+		
+	
+}

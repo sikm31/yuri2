@@ -1,0 +1,10 @@
+ ul li {
+	display: inline;
+	vertical-align:top;
+	
+}
+
+ ul { 
+	display: block;  
+
+}

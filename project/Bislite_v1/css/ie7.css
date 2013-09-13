@@ -1,0 +1,75 @@
+
+.menuhead ul li {
+	
+	display: inline;
+	vertical-align:top;
+	
+	
+}
+
+.contmain ul { 
+	display: block;
+	
+
+}
+
+.contmain ul li { 
+	display:inline; 
+	vertical-align:top;
+	
+	
+}
+
+.footertop ul {
+	display:block;	
+	
+}
+
+.footertop ul li {
+	display:inline;
+	vertical-align:top;
+	
+}
+
+.browse {
+	width:120px;
+	
+}
+
+.contactusfooter {
+	width:150px;	
+	
+}
+
+.connectwithus {
+	width:180px;	
+	
+}
+
+.menuhead ul ul {
+	margin-left:-110px;
+	top:65px;
+	
+}
+
+.menuhead ul li {
+	padding:0 5px;
+	
+}
+
+.menuhead {
+	padding-top:15px;
+	margin-left:380px;
+	
+}
+
+.footerdown ul {
+	display:block;	
+	
+}
+
+.footerdown ul li {
+	display:inline;
+	vertical-align:bottom;
+	
+}
